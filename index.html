@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gleica — IA · Consultoria & Treinamentos</title>
+  <meta name="description" content="Consultoria e treinamentos em IA para times de engenharia, startups e lideranças. Senior Engineering Manager com 13+ anos, Claude Certified Architect." />
+  <meta name="author" content="Gleica" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gleica — IA · Consultoria & Treinamentos" />
+  <meta property="og:description" content="Tradução entre inteligência artificial e decisões de negócio. 13+ anos escalando times de engenharia." />
+  <meta property="og:url" content="https://gleica.com.br" />
+  <meta property="og:locale" content="pt_BR" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="brand" aria-label="Gleica — home">
+      <svg width="32" height="32" viewBox="0 0 48 48" aria-hidden="true">
+        <defs>
+          <linearGradient id="mk-nav" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#22D3EE" />
+            <stop offset="1" stop-color="#E879F9" />
+          </linearGradient>
+        </defs>
+        <circle cx="24" cy="24" r="21" fill="none" stroke="#2F6FE8" stroke-width="2.5" />
+        <path d="M16 28c0-5 3-9 8-9s8 4 8 9c0 1.5-.3 3-1 4M20 19c-.5-2 1-4 4-4s4.5 2 4 4M18 28v3M24 15v16M30 28v3"
+              fill="none" stroke="url(#mk-nav)" stroke-width="1.6" stroke-linecap="round" />
+        <circle cx="18" cy="22" r="1" fill="#22D3EE" />
+        <circle cx="24" cy="20" r="1" fill="#22D3EE" />
+        <circle cx="30" cy="22" r="1" fill="#E879F9" />
+        <circle cx="21" cy="27" r="1" fill="#E879F9" />
+        <circle cx="27" cy="27" r="1" fill="#22D3EE" />
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">GLEICA</span>
+        <span class="brand-sub">IA · CONSULTORIA</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">≡</button>
+
+    <div class="nav-links">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <!-- TEMPORARIAMENTE OCULTO - reativar no futuro
+      <a href="#casos">Casos</a>
+      <a href="#agenda">Agenda</a>
+      -->
+      <a href="#contato">Contato</a>
+    </div>
+
+    <a class="btn" href="#contato">Agendar conversa →</a>
+  </div>
+</nav>
+
+<main id="top">
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div>
+      <div class="eyebrow">
+        <span class="eyebrow-dot" aria-hidden="true"></span>
+        <span class="eyebrow-text">Claude Certified Architect · Aceitando projetos Q2 2026</span>
+      </div>
+
+      <h1>
+        Tradução entre<br />
+        <span class="hl">inteligência artificial</span><br />
+        e decisões de negócio.
+      </h1>
+
+      <p class="hero-lede">
+        Consultoria e treinamentos em IA para times de engenharia, startups e lideranças
+        que precisam transformar hype em resultado mensurável. 13+ anos escalando times
+        distribuídos, dos pagamentos ao developer experience.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary-lg" href="#contato">Agendar diagnóstico gratuito →</a>
+        <!-- TEMPORARIAMENTE OCULTO - reativar quando seção de casos voltar
+        <a class="btn-secondary" href="#casos">Ver casos</a>
+        -->
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <div class="stat-n">13+</div>
+          <div class="stat-l">anos liderando
+engenharia</div>
+        </div>
+        <div>
+          <div class="stat-n">40+</div>
+          <div class="stat-l">times escalados
+em produção</div>
+        </div>
+        <div>
+          <div class="stat-n">4</div>
+          <div class="stat-l">formatos:
+mentoria, workshop,
+curso, palestra</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero visual: neural orb -->
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <defs>
+          <linearGradient id="neural" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#22D3EE" />
+            <stop offset="1" stop-color="#E879F9" />
+          </linearGradient>
+          <radialGradient id="glow">
+            <stop offset="0" stop-color="#2F6FE8" stop-opacity="0.4" />
+            <stop offset="1" stop-color="#2F6FE8" stop-opacity="0" />
+          </radialGradient>
+        </defs>
+
+        <circle cx="200" cy="200" r="180" fill="url(#glow)" />
+        <circle cx="200" cy="200" r="160" fill="none" stroke="#2F6FE8" stroke-width="1" opacity="0.3" stroke-dasharray="4 8" />
+        <circle cx="200" cy="200" r="130" fill="none" stroke="#2F6FE8" stroke-width="2" />
+        <circle cx="200" cy="200" r="95" fill="none" stroke="rgba(90,130,200,0.14)" stroke-width="1" />
+
+        <g stroke="url(#neural)" stroke-width="1.5" fill="none" stroke-linecap="round">
+          <path d="M160 180c-5-15 5-30 25-32s35 8 40 25M165 215c-8 5-10 18-2 25s22 5 28-3M240 180c5-15-5-30-25-32M200 150v110M180 195l-12 10M220 195l12 10M190 230l-8 12M210 230l8 12M175 170l-10-10M225 170l10-10" />
+        </g>
+        <!-- nodes with subtle pulse -->
+        <circle cx="200" cy="150" r="3" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" /></circle>
+        <circle cx="160" cy="180" r="3" fill="#E879F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite" /></circle>
+        <circle cx="240" cy="180" r="3" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite" /></circle>
+        <circle cx="180" cy="195" r="3" fill="#E879F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.1s" repeatCount="indefinite" /></circle>
+        <circle cx="220" cy="195" r="3" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite" /></circle>
+        <circle cx="175" cy="170" r="3" fill="#E879F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite" /></circle>
+        <circle cx="225" cy="170" r="3" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" /></circle>
+        <circle cx="200" cy="215" r="3" fill="#E879F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite" /></circle>
+        <circle cx="180" cy="230" r="3" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite" /></circle>
+        <circle cx="220" cy="230" r="3" fill="#E879F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite" /></circle>
+        <circle cx="200" cy="260" r="3" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite" /></circle>
+        <circle cx="165" cy="215" r="3" fill="#E879F9"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite" /></circle>
+        <circle cx="235" cy="215" r="3" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite" /></circle>
+
+        <circle cx="200" cy="40" r="4" fill="#FB923C" />
+        <circle cx="340" cy="260" r="3" fill="#22D3EE" />
+        <circle cx="60" cy="240" r="3" fill="#E879F9" />
+
+        <g font-family="'JetBrains Mono', monospace" font-size="9" fill="#5A6476">
+          <text x="20" y="30">NEURAL.SYS / v4.2</text>
+          <text x="20" y="385">STATUS: ACTIVE</text>
+          <text x="295" y="30">0x4A2F</text>
+          <text x="290" y="385">LAT 0.12ms</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ABOUT ========== -->
+<section id="sobre" class="section section--soft">
+  <div class="container">
+    <div class="sec-label">
+      <span class="sec-label-num">01</span>
+      <span class="sec-label-line"></span>
+      <span class="sec-label-title">Sobre</span>
+    </div>
+
+    <div class="about-grid">
+      <div>
+        <div class="portrait">
+          <img src="assets/gleica-photo.jpg" alt="Retrato de Gleica" />
+          <div class="portrait-caption">
+            <span>GLEICA</span>
+            <span>SR. ENG MANAGER · 2026</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="about-h2">
+          Escalar times de engenharia é o que faço há mais de 13 anos.<br />
+          Hoje, ajudo outros a fazer o mesmo — com IA como alavanca.
+        </h2>
+        <div class="about-body">
+          <p>
+            Senior Engineering Manager com mais de 13 anos liderando times multidisciplinares —
+            frontend, backend, mobile, plataforma, pagamentos e developer relations.
+            Já atuei em produtos críticos como checkout e sistemas de pagamento, e construí
+            estruturas de Developer Relations do zero, atuando em diversas empresas.
+          </p>
+          <p>
+            Meu diferencial é a ponte entre técnica e negócio: perfil data-driven, people-oriented,
+            orientada a resultado. Trabalho com IA de forma pragmática — priorizo segurança, qualidade
+            ganhos reais de eficiência, developer experience e velocidade de entrega.
+          </p>
+        </div>
+
+        <dl class="facts">
+          <div class="fact">
+            <dt class="fact-k">Certificação</dt>
+            <dd class="fact-v">Claude Certified
+Architect Foundations</dd>
+          </div>
+          <div class="fact">
+            <dt class="fact-k">Experiência</dt>
+            <dd class="fact-v">Scale-ups +
+large-scale enterprises</dd>
+          </div>
+          <div class="fact">
+            <dt class="fact-k">Áreas</dt>
+            <dd class="fact-v">Platforms · Payments ·
+Mobile · Web · DevRel</dd>
+          </div>
+          <div class="fact">
+            <dt class="fact-k">Foco</dt>
+            <dd class="fact-v">Org design · Delivery ·
+High-performance culture</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== SERVICES ========== -->
+<section id="servicos" class="section">
+  <div class="container">
+    <div class="sec-label">
+      <span class="sec-label-num">02</span>
+      <span class="sec-label-line"></span>
+      <span class="sec-label-title">Serviços</span>
+    </div>
+    <h2 class="sec-h2 sec-h2-lg" style="max-width: 900px;">
+      Quatro formatos.<br />
+      Um objetivo: <span style="color: var(--cyan);">IA que gera resultado.</span>
+    </h2>
+
+    <div class="services-grid">
+      <article class="service">
+        <div class="service-tag">01 · MENTORIA</div>
+        <h3>Mentoria executiva 1:1</h3>
+        <p>Para Eng Managers, Tech Leads e founders técnicos navegando scale, IA adoption ou reorganização de times. Sessões quinzenais de 60min com rituais de acompanhamento.</p>
+        <div class="service-foot">
+          <div class="chips">
+            <span class="chip">Carreira</span>
+            <span class="chip">Org Design</span>
+            <span class="chip">IA Strategy</span>
+          </div>
+          <span class="service-meta">60min · quinzenal</span>
+        </div>
+      </article>
+
+      <article class="service">
+        <div class="service-tag">02 · WORKSHOP</div>
+        <h3>Workshops de IA aplicada</h3>
+        <p>Sessões imersivas com seu time — de 1 dia a 1 semana — conectando ferramentas de IA a problemas reais de produto, delivery e DX. Hands-on, sem slides infinitos.</p>
+        <div class="service-foot">
+          <div class="chips">
+            <span class="chip">Hands-on</span>
+            <span class="chip">Custom</span>
+            <span class="chip">Enterprise</span>
+          </div>
+          <span class="service-meta">1–5 dias · on-site ou remoto</span>
+        </div>
+      </article>
+
+      <article class="service">
+        <div class="service-tag">03 · CURSOS</div>
+        <h3>Cursos estruturados</h3>
+        <p>Programas de 4 a 8 semanas para times que querem uplevel em IA generativa, engenharia de prompt, agent design e integração com stack existente. Trilhas por senioridade.</p>
+        <div class="service-foot">
+          <div class="chips">
+            <span class="chip">Cohort</span>
+            <span class="chip">Trilha</span>
+            <span class="chip">Prática</span>
+          </div>
+          <span class="service-meta">4–8 semanas</span>
+        </div>
+      </article>
+
+      <article class="service">
+        <div class="service-tag">04 · PALESTRAS</div>
+        <h3>Palestras e keynotes</h3>
+        <p>IA para quem não é da área técnica, o estado real da adoção em empresas, leadership na era da IA. Eventos corporativos, conferências e treinamentos de liderança.</p>
+        <div class="service-foot">
+          <div class="chips">
+            <span class="chip">Keynote</span>
+            <span class="chip">Corporativo</span>
+            <span class="chip">Eventos</span>
+          </div>
+          <span class="service-meta">30–60min</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CASES (TEMPORARIAMENTE OCULTO - reativar removendo este wrapper de comentário) ==========
+<section id="casos" class="section section--soft">
+  <div class="container">
+    <div class="sec-label">
+      <span class="sec-label-num">03</span>
+      <span class="sec-label-line"></span>
+      <span class="sec-label-title">Casos</span>
+    </div>
+    <h2 class="sec-h2">Resultados recentes.</h2>
+
+    <div class="cases">
+      <article class="case">
+        <div class="case-client">Fintech · B2B</div>
+        <div class="case-title">Reorg + IA em time de pagamentos (80 pessoas)</div>
+        <div class="case-outcome">Redução de 34% no tempo de PR review, NPS de dev +18pts</div>
+        <div class="case-tags">
+          <span class="case-tag">Org Design</span>
+          <span class="case-tag">DevEx</span>
+          <span class="case-tag">IA</span>
+        </div>
+        <div class="case-year">2025 →</div>
+      </article>
+      <article class="case">
+        <div class="case-client">Scale-up · Mobile</div>
+        <div class="case-title">Plataforma de DevRel do zero ao global</div>
+        <div class="case-outcome">De 0 para 12 mil desenvolvedores ativos em 18 meses</div>
+        <div class="case-tags">
+          <span class="case-tag">DevRel</span>
+          <span class="case-tag">Platform</span>
+        </div>
+        <div class="case-year">2024 →</div>
+      </article>
+      <article class="case">
+        <div class="case-client">Grande varejo</div>
+        <div class="case-title">Workshop de IA para C-level + diretoria</div>
+        <div class="case-outcome">Roadmap de adoção de IA aprovado para 7 áreas</div>
+        <div class="case-tags">
+          <span class="case-tag">Executive</span>
+          <span class="case-tag">Strategy</span>
+        </div>
+        <div class="case-year">2025 →</div>
+      </article>
+      <article class="case">
+        <div class="case-client">Startup · SaaS</div>
+        <div class="case-title">Mentoria de CTO no scale 10 → 45 eng</div>
+        <div class="case-outcome">Delivery predictability de 48% para 87%</div>
+        <div class="case-tags">
+          <span class="case-tag">Mentoria</span>
+          <span class="case-tag">Scale</span>
+        </div>
+        <div class="case-year">2024–25 →</div>
+      </article>
+    </div>
+  </div>
+</section>
+========== /CASES ========== -->
+
+<!-- ========== AGENDA (TEMPORARIAMENTE OCULTO - reativar removendo este wrapper de comentário) ==========
+<section id="agenda" class="section">
+  <div class="container">
+    <div class="agenda-head">
+      <div>
+        <div class="sec-label">
+          <span class="sec-label-num">04</span>
+          <span class="sec-label-line"></span>
+          <span class="sec-label-title">Agenda</span>
+        </div>
+        <h2 class="sec-h2">Próximos eventos.</h2>
+      </div>
+      <a class="link-mono" href="#">VER CALENDÁRIO COMPLETO →</a>
+    </div>
+
+    <div class="agenda-grid">
+      <article class="event">
+        <div class="event-date">14<span class="event-month">MAI</span></div>
+        <div>
+          <div class="event-meta">
+            <span class="event-type">Keynote</span>
+            <span class="event-place">São Paulo · QCon SP</span>
+          </div>
+          <div class="event-talk">LLMs em produção: o que ninguém te conta</div>
+        </div>
+        <div class="event-arrow">→</div>
+      </article>
+      <article class="event">
+        <div class="event-date">02<span class="event-month">JUN</span></div>
+        <div>
+          <div class="event-meta">
+            <span class="event-type">Palestra</span>
+            <span class="event-place">Online · AI Leaders Summit</span>
+          </div>
+          <div class="event-talk">Como estruturar um time que usa IA de verdade</div>
+        </div>
+        <div class="event-arrow">→</div>
+      </article>
+      <article class="event">
+        <div class="event-date">18<span class="event-month">JUN</span></div>
+        <div>
+          <div class="event-meta">
+            <span class="event-type">Case study</span>
+            <span class="event-place">Rio de Janeiro · Rio Tech Week</span>
+          </div>
+          <div class="event-talk">Da intenção à adoção: 12 meses de IA em uma fintech</div>
+        </div>
+        <div class="event-arrow">→</div>
+      </article>
+      <article class="event">
+        <div class="event-date">09<span class="event-month">JUL</span></div>
+        <div>
+          <div class="event-meta">
+            <span class="event-type">Workshop</span>
+            <span class="event-place">Remoto · Workshop privado</span>
+          </div>
+          <div class="event-talk">IA aplicada para times de engenharia</div>
+        </div>
+        <div class="event-arrow">→</div>
+      </article>
+    </div>
+  </div>
+</section>
+========== /AGENDA ========== -->
+
+<!-- ========== CONTACT ========== -->
+<section id="contato" class="section section--soft">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <div class="sec-label">
+          <span class="sec-label-num">03</span>
+          <span class="sec-label-line"></span>
+          <span class="sec-label-title">Contato</span>
+        </div>
+        <h2 class="contact-h2">
+          Vamos conversar sobre<br />
+          <span class="hl">seu próximo passo em IA.</span>
+        </h2>
+        <p style="font-size: 16px; color: var(--text-dim); line-height: 1.6; max-width: 440px;">
+          Diagnóstico inicial de 30min, sem custo. Te ajudo a mapear onde IA
+          faz sentido no seu contexto — e onde ainda não faz.
+        </p>
+
+        <dl class="contact-info">
+          <div class="contact-row">
+            <dt>EMAIL</dt>
+            <dd><a href="mailto:gleica.tech@gmail.com">gleica.tech@gmail.com</a></dd>
+          </div>
+          <div class="contact-row">
+            <dt>LINKEDIN</dt>
+            <dd><a href="https://linkedin.com/in/gleica" target="_blank" rel="noopener">/in/gleica</a></dd>
+          </div>
+          <div class="contact-row">
+            <dt>GITHUB</dt>
+            <dd><a href="https://github.com/Gleica" target="_blank" rel="noopener">github.com/Gleica</a></dd>
+          </div>
+          <div class="contact-row">
+            <dt>LOCALIZAÇÃO</dt>
+            <dd>São Paulo, BR · Remoto global</dd>
+          </div>
+        </dl>
+      </div>
+
+      <form class="form" method="post">
+        <label>
+          <span>NOME</span>
+          <input type="text" name="nome" placeholder="Artemis Carolina" required />
+        </label>
+        <label>
+          <span>EMAIL CORPORATIVO</span>
+          <input type="email" name="email" placeholder="artemis@empresa.com" required />
+        </label>
+        <label>
+          <span>EMPRESA / CONTEXTO</span>
+          <input type="text" name="empresa" placeholder="CTO @ fintech 50 pessoas" />
+        </label>
+        <label>
+          <span>SOBRE O QUE QUER CONVERSAR?</span>
+          <textarea name="mensagem" rows="4" placeholder="Estamos começando a integrar LLMs no produto e queria validar a direção…"></textarea>
+        </label>
+        <div class="form-hint">Resposta em até 48h. Sem templates de vendas.</div>
+        <button type="submit" class="btn btn-primary-lg" style="align-self: flex-start;">Enviar mensagem →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-left">
+      <svg width="24" height="24" viewBox="0 0 48 48" aria-hidden="true">
+        <defs>
+          <linearGradient id="mk-foot" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#22D3EE" />
+            <stop offset="1" stop-color="#E879F9" />
+          </linearGradient>
+        </defs>
+        <circle cx="24" cy="24" r="21" fill="none" stroke="#2F6FE8" stroke-width="2.5" />
+        <path d="M16 28c0-5 3-9 8-9s8 4 8 9c0 1.5-.3 3-1 4M20 19c-.5-2 1-4 4-4s4.5 2 4 4M18 28v3M24 15v16M30 28v3"
+              fill="none" stroke="url(#mk-foot)" stroke-width="1.6" stroke-linecap="round" />
+      </svg>
+      <span class="footer-note">© 2026 · GLEICA · IA CONSULTORIA & TREINAMENTOS</span>
+    </div>
+    <div class="footer-links">
+      <a href="https://linkedin.com/in/gleica" target="_blank" rel="noopener">LINKEDIN</a>
+      <a href="https://github.com/Gleica" target="_blank" rel="noopener">GITHUB</a>
+      <a href="mailto:gleica.tech@gmail.com">EMAIL</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
